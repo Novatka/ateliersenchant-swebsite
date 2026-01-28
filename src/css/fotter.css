@@ -1,0 +1,32 @@
+/* Centre le contenu du footer */
+.footer-content {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre tout horizontalement */
+}
+
+/* Réinitialise les listes pour enlever les décalages et les puces */
+.social-media ul, 
+.contact-info ul {
+    list-style: none;
+    padding: 0;         /* TRÈS IMPORTANT : retire le décalage automatique à gauche */
+    margin: 10px 0;
+    display: flex;      /* Aligne les éléments sur une ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 15px;          /* Espace entre les icônes */
+}
+
+/* Pour le contact, on veut peut-être les infos l'une sous l'autre */
+.contact-info ul {
+    flex-direction: column; /* Les infos de contact l'une sous l'autre */
+    gap: 5px;
+}
+
+/* Taille des icônes */
+.social-media img {
+    width: 24px;
+    height: 24px;
+    display: block; /* Évite les espaces vides sous l'image */
+}

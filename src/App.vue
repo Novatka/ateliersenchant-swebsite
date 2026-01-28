@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Accueil from './components/Accueil.vue';
+import Footter from './components/Footter.vue';
 </script>
-
 <template>
   <header class="main-header">
     <img alt="Vue logo" class="logo" src="./assets/logo_sans_texte.png"/>
@@ -15,4 +15,7 @@ import Accueil from './components/Accueil.vue';
   <main>
     <Accueil/>
   </main>
+  <footer>
+    <Footter/>
+  </footer>
 </template>
