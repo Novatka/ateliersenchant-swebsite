@@ -10,7 +10,7 @@ const router = createRouter({
     { path: '/', component: Accueil },
     { path: '/ateliers', component: LesAteliers },
     { path: '/cabinetenchanté', component: CabinetEnchanté },
-    { path: '/quisuisje', component: Quisuisje },
+    { path: '/qui-suis-je', component: Quisuisje },
     { path: '/*', redirect: '/' }
 
   ]
