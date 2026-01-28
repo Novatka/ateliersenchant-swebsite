@@ -1,0 +1,15 @@
+@import './base.css';
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Évite le scroll horizontal indésirable */
+}
+
+#app {
+  width: 100%;
+  max-width: none; /* Annule une éventuelle limite de largeur du template */
+  padding: 0;
+  margin: 0;
+}
