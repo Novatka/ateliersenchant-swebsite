@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Roboto:ital,wght@1,900&display=swap');
+
+.ateliers-container {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+}
+
+.hero-section {
+  height: 80vh;
+  background: url('../assets/ateliers-hero.jpg') center/cover;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 60px;
+}
+
+.hero-content {
+  z-index: 2;
+  border-left: 5px solid #d4af37; /* Jaune/Or Lamborghini */
+  padding-left: 20px;
+}
+
+.main-title {
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: 900;
+  font-style: italic;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.category {
+  color: #d4af37;
+  letter-spacing: 5px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #333;
+  background: #111;
+}
+
+.detail-card {
+  padding: 40px;
+  border-right: 1px solid #333;
+  text-align: center;
+}
+
+.detail-card h3 {
+  font-size: 12px;
+  color: #888;
+  letter-spacing: 2px;
+}
+
+.detail-card p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.pricing-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 20px;
+  background: #000;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-value {
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.highlight .price-value {
+  color: #d4af37;
+}
+
+@media (max-width: 768px) {
+  .details-grid { grid-template-columns: 1fr; }
+  .pricing-section { flex-direction: column; gap: 40px; }
+}
