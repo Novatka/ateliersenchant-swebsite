@@ -1,0 +1,74 @@
+
+/* On importe le style commun pour garder la même charte */
+@import url("../css/accueil.css");
+
+/* Adaptations spécifiques pour le cabinet */
+.cabinet-partie-1 {
+  height: 100vh;
+  background-image: url("../assets/background-cabinet.png"); /* Change l'image ici */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; /* On utilise relative pour que ça se suive bien avec le router */
+}
+
+.cabinet-bandeau-1 {
+  /* On réutilise ton style de bandeau accueil */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(245, 245, 220, 0.85);
+  padding: 30px;
+  width: 100vw;
+  transform: translate(0, 30vh);
+  text-align: center;
+}
+
+.cabinet-description {
+  font-family: 'DynaPuff';
+  color: #555;
+  max-width: 700px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.cabinet-bandeau-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(245, 245, 220, 0.5);
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.info-card {
+  background: white;
+  border: 3px solid rgba(97, 142, 215);
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.info-card h3 {
+  font-family: 'DynaPuff';
+  color: rgba(97, 142, 215);
+}
+
+.info-card p {
+  font-family: 'DynaPuff';
+  color: #666;
+  font-size: 16px;
+}
+
+.cabinet-overlay-txt-1 {
+  font-size: 54px; /* Un peu plus petit que l'accueil pour la hiérarchie */
+  font-family: 'DynaPuff';
+  color: rgba(97, 142, 215);
+  margin-bottom: 10px;
+}
+
+.cabinet-overlay-txt-2 {
+  font-size: 28px;
+  font-family: 'DynaPuff';
+  color: #d4af37; /* Une couleur dorée douce pour varier */
+}

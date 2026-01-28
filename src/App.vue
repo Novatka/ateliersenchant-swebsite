@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Accueil from './components/Accueil.vue';
 import Footter from './components/Footter.vue';
 import router from './routes/router';
 
@@ -10,7 +9,7 @@ import router from './routes/router';
     <h1 class="header-title">Les ateliers enchantés</h1>
     <router-link class="header-button" to="/">Accueil</router-link>
     <router-link class="header-button" to="/ateliers">Les ateliers</router-link>
-    <router-link class="header-button" to="/cabinet">Le cabinet enchanté</router-link>
+    <router-link class="header-button" to="/cabinetenchanté">Le cabinet enchanté</router-link>
     <router-link class="header-button" to="/qui-suis-je">Qui suis-je ?</router-link>
   </header>
 
