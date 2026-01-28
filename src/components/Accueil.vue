@@ -12,5 +12,5 @@
 </template>
 
 <style>
-@import url("../assets/accueil.css");
+@import url("../css/accueil.css");
 </style>
