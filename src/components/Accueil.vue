@@ -8,7 +8,15 @@
     </div> 
     <div class="accueil-partie-2">
         <div class="accueil-bandeau-2">
-            
+            <h1 class="accueil-overlay-txt-3">Photos des ateliers</h1>
+            <h2 class="accueil-overlay-txt-4">Découvrez en images les moments de joie et de partage au sein de nos ateliers</h2>
+            <div class="photos-div">
+                <button class="accueil-overlay-btn-2"><</button>
+                <div class="img-container">
+                    <img src="" alt="">
+                </div>
+                <button class="accueil-overlay-btn-2">></button>
+            </div>
         </div>
     </div>
 </template>

@@ -10,7 +10,7 @@
             </div>
             <div class="contact-info">
                 <ul>
-                    <li>Carine Drouin</li>
+                <li>Carine Drouin</li>
                 <li>06 31 94 49 30 </li>
                 <li>lesateliersenchantes31@gmail.com</li>
                 <li>28 avenue Jean Moulis 31590 Verfeil</li>

@@ -6,6 +6,10 @@
   font-display: swap;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-header {
   display: flex;
   background-color: rgba(255, 243, 205);
@@ -46,6 +50,11 @@
 
 .header-button:first-of-type {
   margin-left: auto;
+}
+
+.header-button.router-link-exact-active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
 }
 
 .header-button:hover {

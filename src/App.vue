@@ -16,6 +16,7 @@ import router from './routes/router';
   <main>
     <router-view/>
   </main>
+
   <footer>
     <Footter/>
   </footer>
