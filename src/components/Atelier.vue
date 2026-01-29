@@ -1,5 +1,23 @@
 <template>
   <section class="ateliers-container">
+    <div class="ateliers-partie-1">
+        <div class="ateliers-bandeau-1">
+            <h1>S'épanouir en s'amusant !</h1>
+            <h2>Accueil de loisirs de 3 à 10 ans</h2>
+        </div>
+    </div>
+    <div class="ateliers-partie-2">
+        <h1 class="ateliers-overlay-txt-1">Photos des ateliers</h1>
+        <h2 class="ateliers-overlay-txt-2">Suivez nos dernières activités en direct</h2>
+    </div>
+  </section>
+</template>
+
+<style>
+@import url("../css/atelier.css");
+</style>
+
+<!--section class="ateliers-container">
     <div class="hero-section">
       <div class="overlay"></div>
       <div class="hero-content">
@@ -49,9 +67,4 @@
         <span class="price-value">30€</span>
       </div>
     </div>
-  </section>
-</template>
-
-<style>
-@import url("../css/atelier.css");
-</style>
+  </section>-->
