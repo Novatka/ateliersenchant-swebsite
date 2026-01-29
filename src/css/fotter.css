@@ -1,32 +1,87 @@
-/* Centre le contenu du footer */
-.footer-content {
+.footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 60px 20px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+    max-width: 100px;
     margin: 0 auto;
-    max-width: 800px;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centre tout horizontalement */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-/* Réinitialise les listes pour enlever les décalages et les puces */
-.social-media ul, 
-.contact-info ul {
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-title {
+    font-family: 'DynaPuff', cursive; /* On garde ton style enfantin mais propre */
+    font-size: 1.5rem;
+    color: #f5f5dc;
+    margin-bottom: 15px;
+}
+
+.footer-section h4 {
+    border-bottom: 2px solid #618ed7;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.footer-section ul {
     list-style: none;
-    padding: 0;         /* TRÈS IMPORTANT : retire le décalage automatique à gauche */
-    margin: 10px 0;
-    display: flex;      /* Aligne les éléments sur une ligne */
-    justify-content: center; /* Centre les éléments horizontalement */
-    gap: 15px;          /* Espace entre les icônes */
+    padding: 0;
 }
 
-/* Pour le contact, on veut peut-être les infos l'une sous l'autre */
-.contact-info ul {
-    flex-direction: column; /* Les infos de contact l'une sous l'autre */
-    gap: 5px;
+.footer-section ul li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    opacity: 0.8;
 }
 
-/* Taille des icônes */
-.social-media img {
-    width: 24px;
-    height: 24px;
-    display: block; /* Évite les espaces vides sous l'image */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-5px);
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+/* Responsive : Tout centrer sur téléphone */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section h4 {
+        margin-top: 20px;
+    }
+    .social-icons {
+        justify-content: center;
+    }
 }
