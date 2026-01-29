@@ -10,7 +10,6 @@
         <div class="accueil-bandeau-2">
             <h1 class="accueil-overlay-txt-3">Actualités des ateliers</h1>
             <h2 class="accueil-overlay-txt-4">Suivez nos dernières activités en direct</h2>
-            
             <div class="photos-div">
                 <div class="img-container-facebook">
                     <div 
