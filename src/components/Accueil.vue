@@ -11,6 +11,7 @@
             <h1 class="accueil-overlay-txt-3">Actualités des ateliers</h1>
             <h2 class="accueil-overlay-txt-4">Suivez nos dernières activités en direct</h2>
             <div class="photos-div">
+                <img class="accueil-sticker-1" src="../assets/nounours.png" alt="Mignon petit nounours souriant tenant un ballon rouge">
                 <div class="img-container-facebook">
                     <div 
                         class="fb-page" 
@@ -24,6 +25,7 @@
                         data-show-facepile="true">
                     </div>
                 </div>
+                <img class="accueil-sticker-2" src="../assets/fleur.png" alt="Fleur toute souriante">
             </div>
         </div>
     </div>
