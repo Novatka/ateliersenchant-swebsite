@@ -126,3 +126,15 @@
   color: white;
   cursor: pointer;
 }
+.img-container-facebook {
+  height: 600px;
+  width: 500px; /* Le plugin FB est limité à 500px max */
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.accueil-overlay-btn-2 {
+    display: none; 
+}

@@ -14,12 +14,12 @@
       <div class="cabinet-bandeau-2">
         <div class="info-card">
           <h3>Mon Expertise</h3>
-          <p>Maîtrise en Sciences de l'Éducation & 20 ans d'expérience.</p>
+          <p>Maîtrise en Sciences de l'Éducation, animatrice d’enfants handicapés mentaux (autiste, trisomique,…) .</p>
         </div>
         
         <div class="info-card">
           <h3>La Séance</h3>
-          <p>Un temps d'échange d'une heure (enfant + parents).</p>
+          <p>Un temps d'échange d'une heure (enfant + parents) pour décrypter le fonctionnement de l'enfant et valoriser son potentiel.</p>
         </div>
 
         <div class="info-card">
