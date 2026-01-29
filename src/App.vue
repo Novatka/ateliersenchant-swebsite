@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import Footter from './components/Footter.vue';
-import router from './routes/router';
-
 </script>
 <template>
   <header class="main-header">
