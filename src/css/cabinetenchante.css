@@ -5,7 +5,7 @@
 /* Adaptations spécifiques pour le cabinet */
 .cabinet-partie-1 {
   height: 100vh;
-  background-image: url("../assets/psychopedagogue-avec-etudiant-1200x800-1-768x512.webp"); /* Change l'image ici */
+  background-image: url("../assets/scary.jpg"); /* Change l'image ici */
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; /* On utilise relative pour que ça se suive bien avec le router */
