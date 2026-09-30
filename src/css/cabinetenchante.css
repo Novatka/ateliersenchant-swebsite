@@ -2,73 +2,156 @@
 /* On importe le style commun pour garder la même charte */
 @import url("../css/accueil.css");
 
-/* Adaptations spécifiques pour le cabinet */
-.cabinet-partie-1 {
-  height: 100vh;
-  background-image: url("../assets/scary.jpg"); /* Change l'image ici */
+/* Page Rejoindre le réseau */
+.reseau-partie-1 {
+  min-height: 60vh;
+  background-image: url("../assets/background-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative; /* On utilise relative pour que ça se suive bien avec le router */
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 20px 60px;
 }
 
-.cabinet-bandeau-1 {
-  /* On réutilise ton style de bandeau accueil */
+.reseau-bandeau-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgba(245, 245, 220, 0.85);
-  padding: 30px;
-  width: 100vw;
-  transform: translate(0, 30vh);
+  padding: 50px 40px;
+  max-width: 800px;
+  border-radius: 20px;
   text-align: center;
 }
 
-.cabinet-description {
+.reseau-titre {
+  font-size: 54px;
   font-family: 'DynaPuff';
-  color: #555;
-  max-width: 700px;
-  font-size: 20px;
-  margin-top: 20px;
+  color: rgba(97, 142, 215);
+  margin-bottom: 15px;
 }
 
-.cabinet-bandeau-2 {
+.reseau-sou-titre {
+  font-size: 24px;
+  font-family: 'DynaPuff';
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.reseau-description {
+  font-family: 'DynaPuff';
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+/* Section formulaire */
+.reseau-partie-2 {
+  background-color: rgba(97, 142, 215);
+  padding: 80px 20px;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: rgba(245, 245, 220, 0.5);
-  padding: 50px 20px;
+  justify-content: center;
+}
+
+.reseau-bandeau-2 {
+  background-color: rgba(245, 245, 220, 0.9);
+  border-radius: 20px;
+  padding: 50px 40px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.reseau-form-titre {
+  font-family: 'DynaPuff';
+  color: rgba(97, 142, 215);
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reseau-form {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
-.info-card {
-  background: white;
-  border: 3px solid rgba(97, 142, 215);
-  border-radius: 20px;
-  padding: 20px;
-  width: 300px;
-  text-align: center;
+.form-groupe {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.info-card h3 {
+.form-groupe label {
   font-family: 'DynaPuff';
   color: rgba(97, 142, 215);
-}
-
-.info-card p {
-  font-family: 'DynaPuff';
-  color: #666;
   font-size: 16px;
 }
 
-.cabinet-overlay-txt-1 {
-  font-size: 54px; /* Un peu plus petit que l'accueil pour la hiérarchie */
+.form-groupe input {
   font-family: 'DynaPuff';
+  font-size: 16px;
+  padding: 12px 15px;
+  border: 2px solid rgba(97, 142, 215);
+  border-radius: 10px;
+  background: white;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-groupe input:focus {
+  border-color: #d4af37;
+}
+
+.reseau-btn {
+  font-family: 'DynaPuff';
+  font-size: 20px;
+  color: white;
+  background-color: rgba(97, 142, 215);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.reseau-btn:hover:not(:disabled) {
+  background-color: #d4af37;
+}
+
+.reseau-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.reseau-confirmation {
+  text-align: center;
+  font-family: 'DynaPuff';
+  color: rgba(97, 142, 215);
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.reseau-confirmation-icon {
+  font-size: 60px;
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+.reseau-confirmation-titre {
+  font-size: 28px;
   color: rgba(97, 142, 215);
   margin-bottom: 10px;
 }
 
-.cabinet-overlay-txt-2 {
-  font-size: 28px;
+.reseau-erreur {
   font-family: 'DynaPuff';
-  color: #d4af37; /* Une couleur dorée douce pour varier */
+  color: #c0392b;
+  font-size: 16px;
+  text-align: center;
 }

@@ -9,7 +9,7 @@ const router = createRouter({
   routes: [
     { path: '/', component: Accueil },
     { path: '/ateliers', component: LesAteliers },
-    { path: '/cabinetenchanté', component: CabinetEnchanté },
+    { path: '/nousrejoindre', component: CabinetEnchanté },
     { path: '/qui-suis-je', component: Quisuisje },
     { path: '/*', redirect: '/' }
 
