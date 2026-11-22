@@ -1,11 +1,18 @@
-.accueil-partie-1 {
+.atelier-partie-1 {
   height: 100vh;
-  background-image: url("../assets/background-2.png");
-  background-repeat: no-repeat;
+  width: 100vw;
+  background-image: url("../assets/histoiredecarine.jpg");
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
+  min-height: fit-content;
+  font-family: 'DynaPuff';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Pousse tout le contenu vers le bas */
+  padding-bottom: 50px;
+  gap: 350px;
 }
 
 .accueil-bandeau-1 {

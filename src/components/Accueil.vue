@@ -1,11 +1,49 @@
 <template>
-    <div class="accueil-partie-1">
-        <div class="accueil-bandeau-1">
-            <h1 class="accueil-overlay-txt-1">S'épanouir en s'amusant !</h1>
-            <h2 class="accueil-overlay-txt-2">Accueil de loisirs de 3 à 10 ans</h2>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGzOKsWBSIH957bO6rnVlLq0VSo4ES-aZtlNORcKlxt3gl0w/viewform?fbclid=IwY2xjawPnehJleHRuA2FlbQIxMABzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeuptMGi1YUF4HtzNclGI_F9K-z4e3V_m4hTQ0Q0DFACryYRsxS0XcDalVpDY_aem_uvDwoUJNJH_eSZNnMUuSHg" target="_blank" class="accueil-overlay-btn-1">S'inscrire au prochain stage</a>
+  <section class="atelier-container">
+    <div class="atelier-partie-1">
+      <div class="atelier-bandeau-1">
+        <div class="ateliers-title-1">
+            <h1>Les ateliers</h1>
+            <h2>S'épanouir en s'amusant</h2>
+            <h3>Activités Montessori en autonomie et deux ateliers quotidiens : Théâtre, cuisine, bricolage, yoga et expression corporelle.</h3>
         </div>
-    </div> 
+      </div>
+        <div class="atelier-info-cards">
+        <div class="atelier-info-card">
+          <div class="detail-card">
+            <h3>PUBLIC</h3>
+            <p>3 À 9 ANS</p>
+            <p>MAX 6 ENFANTS</p>
+          </div>
+        </div>
+        <div class="atelier-info-card">
+           <div class="program-text">
+                <span class="divider"></span>
+                <h2>RENSEIGNEMENTS ET INSCRIPTIONS</h2>
+              <p><i class="icon">📞</i> 06 31 94 49 30</p>
+                    <p>lesateliersenchantes31@gmail.com</p>
+                    <p>28 avenue Jean Moulis<br>31590 Verfeil</p>
+              <div class="plus-value">
+              </div>
+            </div>
+        </div>
+         <div class="atelier-info-card">
+          <h2>LE PRIX</h2>
+          <div class="price-box">
+          <span class="price-label">SEMAINE </span>
+        <span class="price-value">200€</span>
+      </div>
+      <div class="price-box">
+        <span class="price-label">JOURNÉE </span>
+        <span class="price-value">50€</span>
+      </div>
+      <div class="price-box highlight">
+        <span class="price-label">DEMI-JOURNÉE </span>
+        <span class="price-value">30€</span>
+      </div>
+         </div>
+         </div>
+    </div>
    <div class="accueil-partie-2">
         <div class="accueil-bandeau-2">
             <h1 class="accueil-overlay-txt-3">Actualités des Ateliers</h1>
@@ -28,6 +66,7 @@
             </div>
         </div>
     </div>
+    </section>
 </template>
 
 <script setup>
@@ -49,4 +88,5 @@ onMounted(() => {
 </script>
 <style>
 @import url("../css/accueil.css");
+@import url("../css/atelier.css");
 </style>

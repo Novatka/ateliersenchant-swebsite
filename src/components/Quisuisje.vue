@@ -24,7 +24,6 @@
         <li>Devenir éducatrice Montessori (3-6 ans)</li>
         <li>Écrire un roman de développement personnel : « Le bonheur est un jeu d’enfant »</li>
         <li>Créer « les Ateliers Enchantés » en 2025</li>
-        <li>Devenir orthopédagogue en 2026</li>
       </ul>
       <!-- <img class="bandeau-image" src="../assets/Le-bonheur-est-un-jeu-d-enfant.webp" alt="Cheminement" /> -->
     </div>

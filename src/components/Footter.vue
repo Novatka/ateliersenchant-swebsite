@@ -2,6 +2,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section brand">
+                <img class="footer-logo" src="../assets/logo_sans_texte.png" alt="Logo des Ateliers Enchantés" />
                 <h3 class="footer-title">Les Ateliers Enchantés</h3>
                 <p class="footer-description">S'épanouir en s'amusant à Verfeil.</p>
                 <div class="social-icons">
